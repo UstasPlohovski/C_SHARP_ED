@@ -1,0 +1,15 @@
+/Users/ustas/Desktop/GB/C_SHARP_ED/EXAMPLES/EX01/bin/Debug/net7.0/EX01
+/Users/ustas/Desktop/GB/C_SHARP_ED/EXAMPLES/EX01/bin/Debug/net7.0/EX01.deps.json
+/Users/ustas/Desktop/GB/C_SHARP_ED/EXAMPLES/EX01/bin/Debug/net7.0/EX01.runtimeconfig.json
+/Users/ustas/Desktop/GB/C_SHARP_ED/EXAMPLES/EX01/bin/Debug/net7.0/EX01.dll
+/Users/ustas/Desktop/GB/C_SHARP_ED/EXAMPLES/EX01/bin/Debug/net7.0/EX01.pdb
+/Users/ustas/Desktop/GB/C_SHARP_ED/EXAMPLES/EX01/obj/Debug/net7.0/EX01.csproj.AssemblyReference.cache
+/Users/ustas/Desktop/GB/C_SHARP_ED/EXAMPLES/EX01/obj/Debug/net7.0/EX01.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ustas/Desktop/GB/C_SHARP_ED/EXAMPLES/EX01/obj/Debug/net7.0/EX01.AssemblyInfoInputs.cache
+/Users/ustas/Desktop/GB/C_SHARP_ED/EXAMPLES/EX01/obj/Debug/net7.0/EX01.AssemblyInfo.cs
+/Users/ustas/Desktop/GB/C_SHARP_ED/EXAMPLES/EX01/obj/Debug/net7.0/EX01.csproj.CoreCompileInputs.cache
+/Users/ustas/Desktop/GB/C_SHARP_ED/EXAMPLES/EX01/obj/Debug/net7.0/EX01.dll
+/Users/ustas/Desktop/GB/C_SHARP_ED/EXAMPLES/EX01/obj/Debug/net7.0/refint/EX01.dll
+/Users/ustas/Desktop/GB/C_SHARP_ED/EXAMPLES/EX01/obj/Debug/net7.0/EX01.pdb
+/Users/ustas/Desktop/GB/C_SHARP_ED/EXAMPLES/EX01/obj/Debug/net7.0/EX01.genruntimeconfig.cache
+/Users/ustas/Desktop/GB/C_SHARP_ED/EXAMPLES/EX01/obj/Debug/net7.0/ref/EX01.dll

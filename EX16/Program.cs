@@ -1,5 +1,4 @@
-﻿// Задача 29: Напишите программу, которая задаёт массив из 8 целых чисел с клавиатуры и далее выводит массив на экран в одну строку.
-// Задача 26. - HARD необязательная Напишите программу, которая принимает на вход целое или дробное число и выдаёт количество цифр в числе.
+﻿// Задача 26. - HARD необязательная Напишите программу, которая принимает на вход целое или дробное число и выдаёт количество цифр в числе.
 // 452 -> 3
 // 82 -> 2
 // 9,012 ->4
@@ -15,14 +14,19 @@
 
 // Конец
 
-Console.WriteLine("Введите любое число и нажмите Enter:");
+Console.Write("Введите любое число и нажмите Enter: ");
 
 double Number = Convert.ToDouble(Console.ReadLine());
 
-if (((Number * 10) %10) == 0)
+if ((Check1(Number)) == 0)
 {
-    double Size = Math.Floor(Math.Log10(Number)) + 1; 	
-    Console.WriteLine(Size);
+    // double Size = Math.Floor(Math.Log10(Number)) + 1;
+    Size1(Number); 
+    // Console.WriteLine();	
+    // Console.WriteLine($"Количество цифр в введенном числе: {Size}");
+    // Console.WriteLine();
+    PrintSize1(Number);
+    
 }
 else
 {
@@ -31,11 +35,28 @@ else
     {
         NumberTemp = NumberTemp * 10;
     }
-    Console.WriteLine(NumberTemp);
 
     double Size = Math.Floor(Math.Log10(NumberTemp)); 
-    
-    Console.WriteLine(Size);
+    Console.WriteLine();
+    Console.WriteLine($"Количество цифр в введенном числе: {Size}");
+    Console.WriteLine();
+}
+// разбить на функции и попробовать поменять тип данных на более большой по значениям
+
+double Check1(double N)
+{
+    double NumberTemp1 = (N * 10) % 10;
+    return NumberTemp1;
 }
 
-// разбить на функции и попробовать поменять тип данных на более большой по значениям
+double Size1(double N) 
+{   double SizeNum1 = Math.Floor(Math.Log10(N)) + 1;
+    return SizeNum1;
+}
+
+void PrintSize1(double N)
+{
+    Console.WriteLine();	
+    Console.WriteLine($"Количество цифр в введенном числе: {Size1}");
+    Console.WriteLine();
+}
